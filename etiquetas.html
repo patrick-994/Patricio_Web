@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="alien.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./CSS/reset.css"> reset del CSS para que el navegador no lo aplique por defecto -->
+    <link rel="stylesheet" href="./CSS/etiquetas.css">
     <title>Etiquetas HTML</title>
 </head>
 <body>
@@ -25,10 +27,19 @@
 -->
     <header>
         <h1>Clasificación de las etiquetas HTML</h1>
-        <nav>Aquí va el menu</nav>
+        <nav>
+            <ol>
+                <li><a href="#secciones">Secciones</a></li>
+                <li><a href="#agrupaciones">Agrupaciones</a></li>
+                <li><a href="#textos">Textos</a></li>
+                <li><a href="#otros">Otros</a></li>
+                <li><a href="#standar">Standar HTML 5</a></li>
+            </ol>
+
+        </nav>
     </header> 
     <p>Esta página Web va a recoger la clasificación de etiquetas sugerida en el estándar HTML 5.3</p>
-    <section>
+    <section id="secciones">
         <header>
             <h2>Secciones</h2>
             <p>(Sectioning)</p>
@@ -67,28 +78,27 @@
             <p>El Elemento HTML Aside (&lt;aside&gt;) representa una sección de una página que consiste en contenido que está tangencialmente relacionado con el contenido que le rodea, que podría ser considerado independiente de ese contenido. Estas secciones son a menudo representadas como barras laterales o como inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o enlaces a blogs relacionados.</p>
         </section>
     </section>
-    <section>
+    <section id="agrupaciones">
         <header>
             <h2>Agrupaciones</h2>
-            <p>(Grouping)</p>
+            <p>Grouping</p>
         </header>
         <p>Aquí hablaré de las etiquetas de agrupación como p, ul, ol...</p>
     </section> 
-    <section>
+    <section id="textos">
         <header>
-            <h2>Textos (Text-Level semants) -Edits</h2>
-            <p></p>
-        </header>
-        
+            <h2>Textos /h2>
+            <p>Text-Level semants -Edits<</p>
+        </header>     
         <p>Aquí hablaré de las etiquetas de Textos (Text-Level semants) y de la categoría Edits</p>
     </section>
-    <section>
+    <section id="otros">
         <h2>Otras etiquetas</h2>
         <p>Aquí hablaré del resto de etiquetas</p>
     </section>
-    <aside>
-        <h2>El stándar HTML 5.3 de didiembre de 2018 es el último</h2>
-        <p></p>
+    <aside id="standar">
+        <h2>El standar HTML 5.3</h2>
+        <p>En Diciembre de 2018, es el ultimo borrador de HTML producido por la W3C</p>
     </aside>
     <footer>
         Patricio Andrés Celi Reyes
@@ -106,7 +116,8 @@
     1.1.5.aside</li>
 1.2.Agrupaciones 
     Grouping
-1.3.Textos (Text-Level semants) -Edits
+1.3.Textos
+    Text-Level semants -Edits
 1.4.Otras etiquetas
 {1.5.El stándar HTML 5.3}
 

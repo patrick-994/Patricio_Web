@@ -1,0 +1,7 @@
+nav ol, ul {
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: inherit
+}
